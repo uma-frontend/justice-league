@@ -59,7 +59,7 @@ li{
 
 /*TITLE*/
 .main__title{
-   
+
 }
 
 /* CONTAINER */
@@ -73,6 +73,78 @@ li{
 /* ===== LET'S GO CODING =====*/
 
 /*SITE HEADER*/
+.header {
+   padding: 15px 0px;
+}
+
+.header__container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+/*LOGO*/
+.logo {
+   display: flex;
+   align-items: center;
+}
+
+.logo__img {
+   margin: 0px 14px 0px 0px;
+}
+
+.logo__text {
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-size: 40px;
+   color: var(--white-color);
+
+}
+
+/*MENU*/
+.menu {
+}
+
+.menu__list {
+   display: flex;
+   align-items: center;
+}
+
+.menu__item:not(:last-child) {
+   margin: 0px 54px 0px 0px;
+}
+
+.menu__link {
+   font-weight: 700;
+   line-height: 20px;
+   color: var(--white-color);
+   opacity: 0.5;
+   transition: opacity 0.2s ease-in-out;
+}
+
+.menu__link:hover{
+   opacity: 1;
+}
+.menu__link:active{
+   opacity: 0.8;
+}
+
+/*HEADER ICON*/
+.header__icons {
+   display: flex;
+   align-items: center;
+}
+.header__icons-item{
+   display: flex;
+}
+
+.header__icons-item:not(:last-child) {
+   margin: 0px 75px 0px 0px;
+}
+
+.header__icon {
+   cursor: pointer;
+}
 
 
 /*MAIN SECTION*/
