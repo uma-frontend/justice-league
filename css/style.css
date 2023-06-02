@@ -262,6 +262,67 @@ li{
 
 
 /*TV*/
+.tv-show {
+   padding: 60px 0px;
+}
+
+.tb-show__container {
+}
+
+
+
+.tv-show__title {
+
+}
+
+.main__title {
+   font-size: 28px;
+   line-height: 20px;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   margin: 0px 0px 40px 0px;
+}
+
+.main__title::before{
+   display: inline-block;
+   content: "";
+   width: 35px;
+   height: 8px;
+   background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+   border-radius: 50px;
+   transform: rotate(-90deg);
+}
+
+.title-text{
+   margin: 0px 10px 0px 0px;
+}
+
+.tv-show__list {
+   display: flex;
+   align-items: center;
+   margin: 0px 0px 0px -41px;
+}
+
+.tv-show__item {
+   margin: 0px 0px 0px 41px;
+
+}
+.tv-show__link{
+   display: flex;
+   cursor: pointer;
+   transition: all 0.2s linear;
+}
+.tv-show__link:hover{
+   filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
+}
+
+.tv-show__item-img {
+   width: 206px;
+   height: 309px;
+   border-radius: 20px;
+}
+
 
 /*MOVIES*/
 
